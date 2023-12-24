@@ -1,0 +1,49 @@
+.col-6 img{
+    object-fit: cover;
+    width: 100%;
+}
+.img-fluid{
+    height: 250px;
+    width: 100%;
+}
+.tab-title{
+    display: flex;
+}
+.tab-link{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.tab-link::after{
+    margin: auto;
+    content: '';
+    width: 0;
+    height: 2px;
+    background: dodgerblue;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition: .5s;
+    border-radius: 5px;
+}
+.tab-link.active-link::after{
+    width: 100%;
+}
+.tab-content{
+    display: none;
+}
+.tab-content.active-tab{
+    display: block;
+}
+@media only screen and (min-width:300px) and (max-width:500px){
+    .slide-container{
+        height: 300px;
+    }
+}
+@media only screen and (min-width:501px) and (max-width:700px){
+    .slide-container{
+        height: 400px;
+    }
+}
