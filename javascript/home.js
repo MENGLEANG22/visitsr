@@ -15,28 +15,28 @@ document.getElementById('greeting').innerHTML = greeting;
 document.addEventListener('DOMContentLoaded', function () {
     const photoList = [
         {
-            "img": "./images/temple/angkorwat.jpg",
+            "img": "../images/temple/angkorwat.jpg",
         },
         {
-            "img": "./images/temple/bayon.jpg",
+            "img": "../images/temple/bayon.jpg",
         },
         {
-            "img": "./images/nature/angkorEye.jpg",
+            "img": "../images/nature/angkorEye.jpg",
         },
         {
-            "img": "./images/nature/airballoon.jpg",
+            "img": "../images/nature/airballoon.jpg",
         },
         {
-            "img": "./images/nature/koulenwaterfall.jpg",
+            "img": "../images/nature/koulenwaterfall.jpg",
         },
         {
-            "img": "./images/mustSee/preahdak.jpg",
+            "img": "../images/mustSee/preahdak.jpg",
         },
         {
-            "img": "./images/mustSee/srlake.jpg",
+            "img": "../images/mustSee/srlake.jpg",
         },
         {
-            "img": "./images/temple/banteaysrey/7.jpg",
+            "img": "../images/temple/banteaysrey/7.jpg",
         },
     ];
 

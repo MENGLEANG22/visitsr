@@ -2,28 +2,28 @@
 document.addEventListener('DOMContentLoaded', function () {
     const photoList = [
         {
-            "img": "/images/temple/banteaysrey/1.jpg",
+            "img": "../images/temple/banteaysrey/1.jpg",
         },
         {
-            "img": "/images/temple/banteaysrey/2.jpg",
+            "img": "../images/temple/banteaysrey/2.jpg",
         },
         {
-            "img": "/images/temple/banteaysrey/6.jpg",
+            "img": "../images/temple/banteaysrey/6.jpg",
         },
         {
-            "img": "/images/temple/banteaysrey/3.jpg",
+            "img": "../images/temple/banteaysrey/3.jpg",
         },
         {
-            "img": "/images/temple/banteaysrey/3.jpg",
+            "img": "../images/temple/banteaysrey/3.jpg",
         },
         {
-            "img": "/images/temple/banteaysrey/16.jpg",
+            "img": "../images/temple/banteaysrey/16.jpg",
         },
         {
-            "img": "/images/temple/banteaysrey/9.jpg",
+            "img": "../images/temple/banteaysrey/9.jpg",
         },
         {
-            "img": "/images/temple/banteaysrey/7.jpg",
+            "img": "../images/temple/banteaysrey/7.jpg",
         },
     ];
 
