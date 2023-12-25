@@ -42,4 +42,17 @@ video{
     width: 100% !important;
     object-fit: cover;
 }
+@media only screen and (min-width:300px) and (max-width:500px){
+    .tab-title p{
+        font-size: 16px;
+    }
+    .tab-link{
+        margin-right: 25px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    h4{
+        font-size: 18px;
+    }
+}
 
