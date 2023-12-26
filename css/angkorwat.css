@@ -1,14 +1,10 @@
 :root{
     --primary-color: #f6f6f6;
     --secondary-color: #212121;    
-    --alert-sec: darkblue;
-    --alert-pri: #fff;
 }
 .dark-theme{
     --primary-color: #01001f;
     --secondary-color: #cecece;    
-    --alert-sec: #ffff;
-    --alert-pri: rgb(0, 0, 44);
 }
 
 .container{
@@ -77,10 +73,38 @@ body{
 .more a{
     text-decoration: none;
 }
+.mini-img{
+    overflow: hidden;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
 .mini-img img{
     width: 100%;
     height: 100px;
     object-fit: cover;
+    overflow: hidden;
+    border-top-left-radius: 3px;
+}
+.mini-img:hover img{
+    transition: .3s transform ease-in;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transition: .3s transform ease-in;
+    -moz-transition: .3s transform ease-in;
+    -ms-transition: .3s transform ease-in;
+    -o-transition: .3s transform ease-in;
+    filter: brightness(80%);
+    -webkit-filter: brightness(80%);
+}
+.text-secondary{
+    color: var(--secondary-color) !important;
+    margin-bottom: 0 !important;
 }
 hr{
     background-color: var(--secondary-color);

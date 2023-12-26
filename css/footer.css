@@ -62,10 +62,15 @@
 .ourTeam a, .socialLink a, .contactUs a{
     display: flex;
     align-items: center;
-    color: #ccc;
+    color: #6c757d;
     text-decoration: none;
     padding: 10px 10px 10px 0;
 }
+.ourTeam a:hover span, .socialLink a:hover span{
+    text-decoration: underline;
+    color: rgb(65, 160, 255);
+}
+
 .ourTeam a img{
     object-fit: cover;
     width: 26px;
