@@ -7,6 +7,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+#progress{
+    background-color: dodgerblue;
+    position: fixed;
+    bottom: 45px;
+    right: 10px;
+    display: grid;
+    place-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 99999999;
+}
+#progress-val{
+    display: block;
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+    background-color: #fff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+    color: #000;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
 ul,ol{
     margin-bottom: 0 !important;
 }
