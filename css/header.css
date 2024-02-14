@@ -51,7 +51,12 @@ body{
 }
 .dark-theme{
     --primary-color: #01001f;
-    --secondary-color: #f6f6f6;    
+    --secondary-color: #f6f6f6;
+    transition: .2s all ease-in;
+    -webkit-transition: .2s all ease-in;
+    -moz-transition: .2s all ease-in;
+    -ms-transition: .2s all ease-in;
+    -o-transition: .2s all ease-in;
 }
 .dark-theme .temple{
         filter: drop-shadow(1px 1px 1px var(--secondary-color));
@@ -87,8 +92,9 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 5%;
-    background: rgba(0, 0, 0, 1);
+    padding: 10px 5%;
+    background: rgb(2,0,36);
+    background: linear-gradient(357deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0) 84%);
 }
 nav ul{
     flex: 1;
@@ -97,7 +103,7 @@ nav ul{
 .logo{
     padding: 0;
     margin: 0;
-    height: 75px;
+    height: 60px;
     width: 180px;
     cursor: pointer;
     filter: contrast(200%);
@@ -140,10 +146,10 @@ nav .fa-bars{
 @media only screen and (max-width: 900px){
     .logo{
        position: fixed;
-       top: 2%;
+       top: 1.5%;
        left: 7%;
-        width: 120px;
-        height: 60px;
+       width: 120px;
+       height: 55px;
     }
     nav{
        position: fixed;

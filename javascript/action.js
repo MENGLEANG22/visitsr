@@ -42,3 +42,4 @@ calcScrollVal();
 
 // Event listener for scroll events
 window.addEventListener("scroll", calcScrollVal);
+
